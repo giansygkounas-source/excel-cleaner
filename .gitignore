@@ -1,0 +1,4 @@
+venv/
+__pycache__/
+clean_data.xlsx
+by_city.xlsx
