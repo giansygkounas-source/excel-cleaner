@@ -1,4 +1,4 @@
-\# Excel Cleaner
+# Excel Cleaner
 
 
 
@@ -6,21 +6,21 @@
 
 
 
-\## Τι κάνει
+## Τι κάνει
 
 
 
-\- Αφαιρεί τις εντελώς κενές γραμμές
+- Αφαιρεί τις εντελώς κενές γραμμές
 
-\- Εντοπίζει και αφαιρεί τις διπλότυπες εγγραφές
+- Εντοπίζει και αφαιρεί τις διπλότυπες εγγραφές
 
-\- Ταξινομεί τα δεδομένα με βάση μια στήλη (σωστά και με ελληνικούς τόνους)
+- Ταξινομεί τα δεδομένα με βάση μια στήλη (σωστά και με ελληνικούς τόνους)
 
-\- Εξάγει ένα νέο, καθαρό αρχείο Excel (το αρχικό δεν αλλάζει)
+- Εξάγει ένα νέο, καθαρό αρχείο Excel (το αρχικό δεν αλλάζει)
 
 
 
-\## Εγκατάσταση
+## Εγκατάσταση
 
 
 
@@ -32,7 +32,7 @@ cd excel-cleaner
 
 python -m venv venv
 
-venv\\Scripts\\activate
+venvScriptsactivate
 
 pip install -r requirements.txt
 
@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 
 
-\## Χρήση
+## Χρήση
 
 
 
@@ -64,7 +64,7 @@ python cleaner.py data.xlsx
 
 |---|---|---|
 
-| `-o`, `--output` | όνομα του νέου αρχείου | `clean\_data.xlsx` |
+| `-o`, `--output` | όνομα του νέου αρχείου | `clean_data.xlsx` |
 
 | `-s`, `--sort-by` | στήλη ταξινόμησης | η πρώτη στήλη |
 
@@ -76,13 +76,13 @@ python cleaner.py data.xlsx
 
 ```bash
 
-python cleaner.py data.xlsx -s Πόλη -o by\_city.xlsx
+python cleaner.py data.xlsx -s Πόλη -o by_city.xlsx
 
 ```
 
 
 
-\## Παράδειγμα
+## Παράδειγμα
 
 
 
@@ -90,7 +90,7 @@ python cleaner.py data.xlsx -s Πόλη -o by\_city.xlsx
 
 
 
-\## Τεχνολογίες
+## Τεχνολογίες
 
 
 
